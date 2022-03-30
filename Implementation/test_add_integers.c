@@ -16,7 +16,7 @@ void automated_test_add_integers()
 {
     TEST_ASSERT_EQUAL(0, add_integers(0, 0));
     TEST_ASSERT_EQUAL(30, add_integers(10, 20));
-    TEST_ASSERT_EQUAL(-10, add_integers(-10, -20));
+    TEST_ASSERT_EQUAL(-10, add_integers(-1, -20));
 }
 
 void automated_test_add_overflow()
