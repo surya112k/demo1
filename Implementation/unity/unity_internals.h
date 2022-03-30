@@ -31,7 +31,7 @@
  * Attempt 1: UINT_MAX, ULONG_MAX in <limits.h>, or default to 32 bits
  * Attempt 2: UINTPTR_MAX in <stdint.h>, or default to same size as long
  * The user may override any of these derived constants:
- * UNITY_INT_WIDTH, UNITY_LONG_WIDTH, UNITY_POINTER_WIDTH */
+ * UNITY_INT_WIDTH, UNITY_LONG_WIDTH, UNITY_POINTER_WIDTH surya*/
 #ifndef UNITY_EXCLUDE_STDINT_H
 #include <stdint.h>
 #endif
